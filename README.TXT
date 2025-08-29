@@ -18,3 +18,6 @@ sun2.changeColor("yellow");
             sun2.changeSize(80);
             sun2.makeVisible();
             drawn = true;
+            
+            
+For the challenge exercise I couldnt figure out how to make a sunset.
