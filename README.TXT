@@ -1,19 +1,20 @@
 Project 'house'
 Authors: Michael Kölling and David J. Barnes
 
-This project is part of the material for the book
+Answers
 
-   Objects First with Java - A Practical Introduction using BlueJ
-   Seventh edition
-   David J. Barnes and Michael Kölling
-   Pearson Education
+1.The picture class draws the picture in a clear and simple way. If I want it in black and white
+it instantly turns black and white.
 
-It is discussed in chapter 1.
-    
-This is a very simple project to demonstrate some characteristics of
-objects.
+2. the sun2 code
 
-This project is often used after studying the "shapes" project. It
-adds a class to those ones in "shapes". That class (named "Picture")
-uses the shapes to draw a picture. It can be used to experiment with 
-modifying source code.
+private Circle sun2;
+
+sun2 = new Circle();
+
+sun2.changeColor("yellow");
+            sun2.moveHorizontal(-140);
+            sun2.moveVertical(-50);
+            sun2.changeSize(80);
+            sun2.makeVisible();
+            drawn = true;
